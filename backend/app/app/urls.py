@@ -21,6 +21,6 @@ import excurse.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', Home.views.home),
+    path('', Home.views.home),s
     path('excurse/', excurse.views.excurse),
 ]
