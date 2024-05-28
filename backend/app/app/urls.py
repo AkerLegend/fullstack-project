@@ -17,8 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 import Home.views
+import excurse.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', Home.views.home)
+    path('', Home.views.home),
+    path('excurse/', excurse.views.excurse),
 ]
